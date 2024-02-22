@@ -1,0 +1,46 @@
+.list {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 800px;
+    border: 1px solid #EAEBED;
+    border-radius: 12px;
+    padding: 24px;
+
+    h2 {
+        font: 600 20px Inter;
+        color: #5E96FC;
+        margin-bottom: 10px;
+    }
+
+    .info {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        p {
+            font: 600 16px Inter;
+            color: black;
+            margin-bottom: 10px;
+        }
+
+        .worktime {
+            font: 400 16px Inter;
+            color: black;
+        }
+    }
+
+    .flexLocation {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        p {
+            font: 400 16px Inter;
+            color: #232134;
+        }
+    }
+}
